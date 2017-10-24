@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="bomb_game">
+		<CBX_INST_ENTRY INSTANCE_NAME="|bomb_game|counter_30:slow_clk_cnt|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_7mh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bomb_game|screen:screen_inst|counter_16:counter_16_refresh|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_v4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bomb_game|screen:screen_inst|ram_2:ram_2_bomb|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_l242.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,12 @@
+
+State Machine - |bomb_game|player:player2_inst|state
+Name state.wait_ready state.read_data state.read_low 
+state.read_low 0 0 0 
+state.read_data 0 1 1 
+state.wait_ready 1 0 1 
+
+State Machine - |bomb_game|player:player1_inst|state
+Name state.wait_ready state.read_data state.read_low 
+state.read_low 0 0 0 
+state.read_data 0 1 1 
+state.wait_ready 1 0 1 

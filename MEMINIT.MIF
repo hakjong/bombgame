@@ -1,0 +1,9 @@
+Depth = 65536;
+Width = 1;
+Address_radix = BIN;
+Data_radix = bin;
+
+CONTENT BEGIN
+	[000000000000000..111111111111111] : 0;
+
+END;

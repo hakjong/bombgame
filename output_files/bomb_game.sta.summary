@@ -1,0 +1,173 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'screen_inst|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : -4.818
+TNS   : -147.395
+
+Type  : Slow Model Setup 'counter_30:slow_clk_cnt|lpm_counter:LPM_COUNTER_component|cntr_7mh:auto_generated|safe_q[21]'
+Slack : -3.618
+TNS   : -99.745
+
+Type  : Slow Model Setup 'player:player1_inst|position[0]'
+Slack : -2.551
+TNS   : -2.551
+
+Type  : Slow Model Setup 'player:player1_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : -1.470
+TNS   : -25.792
+
+Type  : Slow Model Setup 'player:player2_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : -1.449
+TNS   : -26.456
+
+Type  : Slow Model Setup 'Clock_48Mhz'
+Slack : -1.438
+TNS   : -5.022
+
+Type  : Slow Model Setup 'player:player2_inst|position[0]'
+Slack : -0.982
+TNS   : -0.982
+
+Type  : Slow Model Hold 'Clock_48Mhz'
+Slack : -2.082
+TNS   : -2.082
+
+Type  : Slow Model Hold 'counter_30:slow_clk_cnt|lpm_counter:LPM_COUNTER_component|cntr_7mh:auto_generated|safe_q[21]'
+Slack : -1.755
+TNS   : -3.480
+
+Type  : Slow Model Hold 'player:player2_inst|position[0]'
+Slack : -1.531
+TNS   : -1.531
+
+Type  : Slow Model Hold 'player:player1_inst|position[0]'
+Slack : -1.317
+TNS   : -1.317
+
+Type  : Slow Model Hold 'player:player1_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'player:player2_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'screen_inst|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'counter_30:slow_clk_cnt|lpm_counter:LPM_COUNTER_component|cntr_7mh:auto_generated|safe_q[21]'
+Slack : -0.500
+TNS   : -32.000
+
+Type  : Slow Model Minimum Pulse Width 'player:player1_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : -0.500
+TNS   : -22.000
+
+Type  : Slow Model Minimum Pulse Width 'player:player2_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : -0.500
+TNS   : -22.000
+
+Type  : Slow Model Minimum Pulse Width 'player:player1_inst|position[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'player:player2_inst|position[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clock_48Mhz'
+Slack : 9.000
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'screen_inst|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 17.873
+TNS   : 0.000
+
+Type  : Fast Model Setup 'screen_inst|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : -1.776
+TNS   : -52.620
+
+Type  : Fast Model Setup 'counter_30:slow_clk_cnt|lpm_counter:LPM_COUNTER_component|cntr_7mh:auto_generated|safe_q[21]'
+Slack : -1.526
+TNS   : -39.939
+
+Type  : Fast Model Setup 'player:player1_inst|position[0]'
+Slack : -0.830
+TNS   : -0.830
+
+Type  : Fast Model Setup 'player:player2_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : -0.180
+TNS   : -2.403
+
+Type  : Fast Model Setup 'player:player1_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : -0.178
+TNS   : -2.370
+
+Type  : Fast Model Setup 'Clock_48Mhz'
+Slack : -0.095
+TNS   : -0.190
+
+Type  : Fast Model Setup 'player:player2_inst|position[0]'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Fast Model Hold 'Clock_48Mhz'
+Slack : -1.415
+TNS   : -1.432
+
+Type  : Fast Model Hold 'counter_30:slow_clk_cnt|lpm_counter:LPM_COUNTER_component|cntr_7mh:auto_generated|safe_q[21]'
+Slack : -1.233
+TNS   : -2.459
+
+Type  : Fast Model Hold 'player:player2_inst|position[0]'
+Slack : -0.721
+TNS   : -0.721
+
+Type  : Fast Model Hold 'player:player1_inst|position[0]'
+Slack : -0.314
+TNS   : -0.314
+
+Type  : Fast Model Hold 'player:player1_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'player:player2_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'screen_inst|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'counter_30:slow_clk_cnt|lpm_counter:LPM_COUNTER_component|cntr_7mh:auto_generated|safe_q[21]'
+Slack : -0.500
+TNS   : -32.000
+
+Type  : Fast Model Minimum Pulse Width 'player:player1_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : -0.500
+TNS   : -22.000
+
+Type  : Fast Model Minimum Pulse Width 'player:player2_inst|keyboard:keyboard_inst|keyboard_clk_filtered'
+Slack : -0.500
+TNS   : -22.000
+
+Type  : Fast Model Minimum Pulse Width 'player:player1_inst|position[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'player:player2_inst|position[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clock_48Mhz'
+Slack : 9.000
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'screen_inst|video_PLL_inst|altpll_component|pll|clk[0]'
+Slack : 17.873
+TNS   : 0.000
+
+------------------------------------------------------------

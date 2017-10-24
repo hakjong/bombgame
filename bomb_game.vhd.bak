@@ -1,0 +1,26 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.all;
+USE IEEE.STD_LOGIC_ARITH.all;
+USE IEEE.STD_LOGIC_UNSIGNED.all;
+
+ENTITY bomb_game IS
+	PORT(
+		-- For keyboard
+		PS2_CLK, PS2_DATA,
+		CLK_48Mhz,								: IN STD_LOGIC;
+		-- For VGA
+		Clock_48Mhz 							: IN STD_LOGIC;
+		VGA_Red,VGA_Green,VGA_Blue 		: OUT STD_LOGIC;
+		VGA_Hsync,VGA_Vsync,
+		Video_blank_out, Video_clock_out : OUT STD_LOGIC;
+		
+	);
+END bomb_game;
+
+ARCHITECTURE a OF bomb_game IS
+
+	
+
+BEGIN
+	
+END a;

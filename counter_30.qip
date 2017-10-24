@@ -1,0 +1,8 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_COUNTER"
+set_global_assignment -name IP_TOOL_VERSION "13.0"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "counter_30.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "counter_30.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "counter_30_inst.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "counter_30.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "counter_30.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "counter_30_syn.v"]
